@@ -7,7 +7,7 @@ module Onsen
     namespace :weather
     desc "send", "weather forcast for Tokyo today"
     def send
-      puts "Weather forcast for Tokyo today"
+      puts "Get weather forcast for Tokyo today..."
     end
 
     def self.banner(task, namespace = false, subcommand = true)
