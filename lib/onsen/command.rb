@@ -1,6 +1,7 @@
 require 'onsen'
 require 'onsen/yo'
 require 'onsen/twitter'
+require 'onsen/weather'
 require 'thor'
 require 'thor/group'
 
