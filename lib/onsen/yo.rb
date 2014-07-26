@@ -5,9 +5,9 @@ require 'thor/group'
 module Onsen
   class Yo < Thor
     namespace :yo
-    desc "yo", "puts times twite"
-    def yo
-      puts "yo aa"
+    desc "send", "puts yo 送信"
+    def send
+      puts "yo 送信！！"
     end
 
     def self.banner(task, namespace = false, subcommand = true)
