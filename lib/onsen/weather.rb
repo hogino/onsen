@@ -3,7 +3,7 @@ require 'thor'
 require 'thor/group'
 
 module Onsen
-  class weather < Thor
+  class Weather < Thor
     namespace :weather
     desc "weather", "weather forcast fot Tokyo today"
     def send
