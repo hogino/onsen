@@ -4,7 +4,7 @@ require 'thor/group'
 
 module Onsen
   class Weather < Thor
-    namespace :weather
+    #namespace :weather
     desc "weather", "weather forcast fot Tokyo today"
     def send
       puts "Weather forcast for Tokyo today"
