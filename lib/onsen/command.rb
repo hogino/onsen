@@ -9,7 +9,7 @@ module Onsen
   class Command < Thor
     register(Twitter, 'twitter', 'twitter [COMMAND]', 'commands for twitter')
     register(Yo, 'yo', 'yo [COMMAND]', 'commands for yo')
-    register(Weather, 'weather', 'weather', 'weather forcast fot Tokyo today')
+    register(Weather, 'weather', 'weather [COMMAND]', 'weather forcast for Tokyo today')
   end
 end
 
