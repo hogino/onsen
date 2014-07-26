@@ -3,3 +3,4 @@
 require 'onsen'
 
 Onsen::Command.start
+# Onsen::Yo.start
