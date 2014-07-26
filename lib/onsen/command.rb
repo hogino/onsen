@@ -12,4 +12,3 @@ module Onsen
     register(Weather, 'weather', 'weather [COMMAND]', 'commands for weather')
   end
 end
-
